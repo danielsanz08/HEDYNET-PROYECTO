@@ -1,0 +1,51 @@
+:root {
+    --primary-color: #6fa2b8;
+    --secondary-color: #2392be;
+    --black: #000000;
+    --white: #ffffff;
+    --gray: #efefef;
+    --gray-2: #757575;
+
+    --facebook-color: #4267B2;
+    --google-color: #DB4437;
+    --twitter-color: #1DA1F2;
+    --insta-color: #E1306C;
+}
+html,
+body {
+    height: 100vh;
+    overflow: hidden;
+    background: black;
+}
+.container {
+    position: relative;
+    min-height: 100vh;
+    overflow: hidden;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+.col {
+    width: 50%;
+    background-color: #1DA1F2;
+}
+.align-items-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+/*
+.form-wrapper {
+    width: 100%;
+    max-width: 28rem;
+}*/
+
+/**/
+.input-group {
+    position: relative;
+    width: 100%;
+    margin: 1rem 0;
+}
